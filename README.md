@@ -117,9 +117,3 @@ SKILL.md
 README.md
 agents/openai.yaml
 ```
-
-## 💬 一句话总结
-
-```text
-把普通经历，翻译成岗位能理解的能力证据。
-```
