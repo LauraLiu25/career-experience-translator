@@ -1,86 +1,105 @@
 # Career Experience Translator
 
-> 经历不是没价值。  
-> 只是缺少岗位语言。
+> ✨ 经历不是没价值。  
+> 🎯 只是缺少岗位语言。
 
-Career Experience Translator is a suite of AI Skills for turning real experiences into role-ready resume and interview evidence.
+Career Experience Translator 是一组面向求职场景的 AI Skills，目标是帮助用户把真实经历转化成目标岗位能理解的能力证据。
 
-It is designed for candidates who may not have perfectly vertical internships or work experience, but do have real projects, campus work, competitions, part-time jobs, research, or personal products that can be translated into transferable capability evidence.
+它尤其适合这些情况：
 
-## What This Suite Does
+- 🎓 没有非常垂直的实习或工作经历
+- 🧩 简历里多是校园项目、竞赛、社团、兼职、课设、研究或个人作品
+- 🔍 不知道哪些经历可以支撑目标岗位
+- 📝 简历写得像流水账
+- 🎙️ 面试时讲经历像背稿，缺少真实细节
+- 🛡️ 想用 AI 准备求职，但不想被 AI 编造经历
 
-This suite helps users move through the full career-expression workflow:
+这组 Skills 的核心不是“包装一个更厉害的人”，而是：
+
+**把真实经历翻译成岗位能听懂、简历能呈现、面试能说出口的表达。**
+
+## 🧭 这组 Skills 能做什么
+
+它覆盖一条完整的求职表达流程：
 
 ```text
 story-doctor
-dig out story material
+挖出普通经历里的故事素材
 
 role-fit-check
-find direct and transferable fit
+判断简历和 JD 的直接匹配与可迁移匹配
 
 resume-refiner
-polish the existing resume
+基于已有简历做贴岗润色
 
 experience-translator
-translate one experience into interview language
+把一段经历转译成面试口语表达
 
 mock-interview
-practice follow-up questions
+围绕真实经历进行追问训练
 
 experience-bank
-save and reuse experience notes
+保存、检索和复用经历笔记
 ```
 
-## Skills
+## 🧰 Skills 列表
 
-| Skill | Purpose |
+| Skill | 作用 |
 | --- | --- |
-| `experience-translator` | Translate one real experience into role language and human interview phrasing |
-| `role-fit-check` | Compare a resume/profile with a JD and identify direct or transferable fit |
-| `resume-refiner` | Polish an existing resume for a target JD without inventing experience |
-| `story-doctor` | Mine ordinary experience for hidden story material |
-| `mock-interview` | Practice focused follow-up questions around one real experience |
-| `experience-bank` | Store, list, search, and reuse compact experience notes |
+| 🧠 `experience-translator` | 核心引擎：把一段真实经历翻译成岗位语言和面试口语表达 |
+| 🔎 `role-fit-check` | 入口判断：分析简历和 JD 的直接匹配、可迁移匹配与缺口 |
+| 📝 `resume-refiner` | 简历润色：基于已有简历和目标 JD 做修改建议与 bullet 优化 |
+| 🩺 `story-doctor` | 经历挖掘：当用户觉得经历普通时，问出冲突、选择、变化和影响 |
+| 🎙️ `mock-interview` | 模拟面试：围绕一段真实经历做追问训练 |
+| 🗂️ `experience-bank` | 经历资产库：保存、列出、检索和复用 experience notes |
 
-## Quick Entry
+## 🚪 快速入口
 
-| If you are stuck here | Start with |
+| 你现在卡在 | 建议使用 |
 | --- | --- |
-| I have a JD but do not know if I can apply | `$role-fit-check` |
-| I have a resume and want to polish it for this JD | `$resume-refiner` |
-| I have one experience but do not know how to talk about it | `$experience-translator` |
-| This experience feels too ordinary | `$story-doctor` |
-| I prepared an answer and want to practice | `$mock-interview` |
-| I want to reuse old experience notes for a new JD | `$experience-bank` |
+| 有 JD，但不确定自己能不能投 | `$role-fit-check` |
+| 有简历，想针对某个 JD 润色 | `$resume-refiner` |
+| 有一段经历，但不知道面试时怎么讲 | `$experience-translator` |
+| 觉得自己的经历太普通，没什么可说 | `$story-doctor` |
+| 已经准备好回答，想练习面试追问 | `$mock-interview` |
+| 想把整理过的经历保存下来，下次复用 | `$experience-bank` |
 
-## Shared Principles
+## 🧷 共同原则
 
-- Do not fabricate experience, metrics, roles, tools, or outcomes.
-- Approximate facts are acceptable only when the user provides a range or basis.
-- Keep uncertainty visible with words like "about", "approximately", or "needs confirmation".
-- Prefer real details, decisions, constraints, changes, and trade-offs over generic ability labels.
+- ✅ 不虚构经历、数据、岗位、工具或成果。
+- 📏 允许使用有依据的近似事实，但必须保留不确定性。
+- 🕊️ 如果用户只记得大概范围，可以写成“约”“大概”“needs confirmation”，不能改成精确数据。
+- 🔦 优先挖掘真实细节、决策、约束、变化和取舍。
+- 🚫 避免空泛表达，例如“具备良好沟通能力”“负责推进项目落地”。
+- 🌱 重点不是把经历说大，而是把经历讲清楚。
 
-## Repository Structure
+## 📦 仓库结构
 
 ```text
 career-experience-translator/
-├── README.md
-├── docs/
-│   └── suite-guide.md
-└── skills/
-    ├── experience-translator/
-    ├── role-fit-check/
-    ├── resume-refiner/
-    ├── story-doctor/
-    ├── mock-interview/
-    └── experience-bank/
+|-- README.md
+|-- docs/
+|   |-- suite-guide.md
+|-- skills/
+|   |-- experience-translator/
+|   |-- role-fit-check/
+|   |-- resume-refiner/
+|   |-- story-doctor/
+|   |-- mock-interview/
+|   |-- experience-bank/
 ```
 
-Each skill folder contains:
+每个 skill 目录都包含：
 
 ```text
 SKILL.md
 README.md
 agents/openai.yaml
+```
+
+## 💬 一句话总结
+
+```text
+把普通经历，翻译成岗位能理解的能力证据。
 ```
 
