@@ -1,0 +1,4 @@
+interface:
+  display_name: "Story Doctor"
+  short_description: "Mine ordinary experience for interview stories."
+  default_prompt: "Use $story-doctor to help me find useful story material from this ordinary experience."

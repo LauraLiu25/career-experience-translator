@@ -1,0 +1,4 @@
+interface:
+  display_name: "Experience Translator"
+  short_description: "Turn one experience into role language."
+  default_prompt: "Use $experience-translator to turn this JD and experience into role language, a spoken answer, and reusable notes."

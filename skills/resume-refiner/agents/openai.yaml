@@ -1,0 +1,4 @@
+interface:
+  display_name: "Resume Refiner"
+  short_description: "Polish an existing resume for a target role."
+  default_prompt: "Use $resume-refiner to polish this existing resume for the target JD without inventing experience."

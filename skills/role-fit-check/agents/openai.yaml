@@ -1,0 +1,4 @@
+interface:
+  display_name: "Role Fit Check"
+  short_description: "Find role-fit evidence in a resume and JD."
+  default_prompt: "Use $role-fit-check to compare this resume with the target JD and identify transferable fit evidence."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Mock Interview"
+  short_description: "Practice follow-up questions from real experience."
+  default_prompt: "Use $mock-interview to simulate an interview based on this target role and my prepared experience."

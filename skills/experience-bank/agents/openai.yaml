@@ -1,0 +1,4 @@
+interface:
+  display_name: "Experience Bank"
+  short_description: "Store and reuse role-ready experience notes."
+  default_prompt: "Use $experience-bank to save, list, or reuse my experience notes for a new JD."
