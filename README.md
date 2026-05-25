@@ -1,4 +1,3 @@
-[README.md](https://github.com/user-attachments/files/28222284/README.md)
 # Career Experience Translator
 
 > 经历不是没价值。  
